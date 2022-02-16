@@ -1,7 +1,21 @@
+import { Blog, Header, WhatGPT3 , Features, Footer, Possibility,} from './containers';
+import {CTA, Brand, Navbar } from './components';
+import './App.css';
+
 function App() {
   return (
     <div className="App">
-      GHorizon
+      <div className='gradient__bg'>
+        <Navbar/>
+        <Header/>
+      </div>
+        <Brand/>
+        <WhatGPT3/>
+        <Features/>
+        <Possibility/>
+        <CTA/>
+        <Blog/>
+        <Footer/>
     </div>
   );
 }
