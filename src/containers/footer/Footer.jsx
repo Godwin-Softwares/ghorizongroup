@@ -1,20 +1,20 @@
 import React from 'react'
 import './footer.css'
-import gpt3Logo from '../../assets/logo.svg'
+import Logo from '../../assets/logos.png'
 
 const Footer = () => {
   return (
     <div className='gpt3__footer section__padding'>
         <div className='gpt3__footer-heading'>
-           <h1 className='gradient__text'>Do you want to step into the future before others</h1>
+           <h1 className='gradient__text'>Do you want to go global with your Business?</h1>
         </div>
         <div className='gpt3__footer-btn'>
           <p>Request Early Access</p>
         </div>
         <div className='gpt3__footer-links'>
           <div className='gpt3__footer-links_logo'>
-            <img src={gpt3Logo} alt="Logo"/>
-            <p>Crechterwoord K12 184 DK Alkinjkcv, All</p>
+            <img src={Logo} alt="Logo"/>
+            <p>114 Akoka Lagos, Nigeria</p>
           </div>  
           <div className='gpt3__footer-links_div'>
                 <h4>Links</h4>
@@ -35,12 +35,12 @@ const Footer = () => {
           </div>
           <div className='gpt3__footer-links_div'>
                 <h4>Get In touch</h4>
-                <p>Crechterwoord K12 184 DK Alkinjkcv</p>
+                <p>114 Akoka Lagos, Nigeria</p>
                 <p>08139444402</p>
-                <p>info@paymenow.net</p>
+                <p>info@ghorizongroup.com</p>
 
           </div>
-          <div className='gpt3__footer-copyright'>&copy; 2022 GPT-3. All rights reserved</div>
+          <div className='gpt3__footer-copyright'>&copy; 2022 GHorizon. All rights reserved</div>
         </div>
       </div>
     

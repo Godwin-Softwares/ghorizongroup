@@ -17,13 +17,23 @@
 }
 
 .gpt3__navbar-links_logo img{
-    height: 16.016000747680664px;
-    width: 62.55734634399414px;
+    height: 20px;
+    width: 20px;
     left: 135.659912109375px;
     top: 74.2919921875px;
     border-radius: 0px;
 
 }
+
+.gpt3__navbar-links_logo span{
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: var(--font-family);
+    margin-left: 5px;
+
+}
+
 
 .gpt3__navbar-links_container{
     display: flex;

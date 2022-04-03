@@ -1,16 +1,16 @@
 import React, {useState} from 'react'
 import './navbar.css'
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri'
-import logo from '../../assets/logo.svg'
+import logo from '../../assets/logos.png'
 
 const Menu = () => (
 
   <>
     <p><a href="#home">Home</a></p>
-    <p><a href="#wgpt3">What is GPT3</a></p>
-    <p><a href="#possibility">Open AI</a></p>
-    <p><a href="#features">Case Studies</a></p>
-    <p><a href="#blog">Library</a></p>
+    <p><a href="#features">Our Services</a></p>
+    <p><a href="#project">Our Projects</a></p>
+    <p><a href="#about">About Us</a></p>
+    <p><a href="#blog">Contact Us</a></p>
   </>
 
 )
@@ -25,6 +25,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
       <div className="gpt3__navbar-links">
           <div className="gpt3__navbar-links_logo">
               <img src={logo} alt="logo"/>
+              <span>GHORIZON</span>
           </div>
           <div className="gpt3__navbar-links_container">
             <Menu/>

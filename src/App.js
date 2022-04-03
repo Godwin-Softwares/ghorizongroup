@@ -1,4 +1,4 @@
-import { Blog, Header, Whatg , Features, Footer, Possibility,} from './containers';
+import { Blog, Header, Features, Footer, Possibility,} from './containers';
 import {CTA, Brand, Navbar } from './components';
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
         <Header/>
       </div>
         <Brand/>
-        <Whatg/>
+        {/* <Whatg/> */}
         <Features/>
         <Possibility/>
         <CTA/>

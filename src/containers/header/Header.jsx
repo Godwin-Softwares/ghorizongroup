@@ -8,10 +8,10 @@ const Header = () => {
     <div className="gpt3__header section__padding " id="home">
       <div className='gpt3__header-content'>
         <h1 className='gradient__text'>
-          Let's Build Something Amazing with GPT-3 OpenAI
+          Make your Business Go Global Today
         </h1>
         <p>
-          Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.
+          Lets build you a topnotch IT solution to grow your business. We are specialist in Branding, Designing, developing and deploying IT tools to set your business apart for outstanding growth and profit.
         </p>
         <div className="gpt3__header-content__input">
           <input type="email" placeholder='Your Email Address'/>
@@ -19,7 +19,7 @@ const Header = () => {
         </div>
         <div className="gpt3__header-content__people">
           <img src={people} alt="people"/>
-          <p>1,600 people requested access a visit in last 24 hours</p>
+          <p>400 people requested access a visit in last 24 hours</p>
         </div>
         
       </div>
